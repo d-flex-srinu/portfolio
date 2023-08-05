@@ -1,10 +1,19 @@
-import React from 'react'
-
+import React from 'react';
+import Navbar from './Navbar';
+import Banner from './Banner';
+import Testimonial from './Testimonial';
+import Patners from './Patners';
+import Services from './Services';
 function Portfolio() {
     return (
         <div>
-            <h1 className=''>Portfolio</h1>
-            <button className='btn btn-primary'>Hii</button>
+            <div>
+                <Navbar />
+                <Banner />
+                <Testimonial />
+                <Patners />
+                <Services />
+            </div>
         </div>
     )
 }

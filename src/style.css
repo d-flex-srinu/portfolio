@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.person-a{
+    box-shadow: 4px 4px 32px 0px #0000001F;
+    border-radius: 13px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.profile-banner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.profile-img{
+    position: relative;
+    text-align: center;
+    top: -30px;
+}
+
+.learn{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.bg-services{
+    background-color: #F6FBF8;
+}
